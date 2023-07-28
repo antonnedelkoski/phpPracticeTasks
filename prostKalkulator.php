@@ -44,9 +44,9 @@ $task2 = new MyCalculator(2.4,4.2);
 $task3 = new MyCalculator(6, 2.1);
 
 
-echo $task2->add() . "\n"; // Displays 18
-echo $task3->multiply() . "\n"; // Displays 72
-echo $task2->subtract() . "\n"; // Displays 6
-echo $task1->divide() . "\n"; // Displays 2
+echo $task2->add() . "\n"; 
+echo $task3->multiply() . "\n"; 
+echo $task2->subtract() . "\n"; 
+echo $task1->divide() . "\n"; 
 
 
