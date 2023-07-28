@@ -42,11 +42,13 @@ class MyCalculator
 $task1 = new MyCalculator(12, 6);
 $task2 = new MyCalculator(2.4,4.2);
 $task3 = new MyCalculator(6, 2.1);
+$task4 = new MyCalculator(8, 8.4);
 
 
 echo $task2->add() . "\n"; 
 echo $task3->multiply() . "\n"; 
 echo $task2->subtract() . "\n"; 
 echo $task1->divide() . "\n"; 
+echo $task4->divide() . "\n"
 
 
